@@ -35,7 +35,7 @@ int Node::getHeight()
 	return height;
 }
 
-int Node::getHeightRec(Node* nodePtr)//This is crashing for some reason. WHY CANT THIS BE EASY
+int Node::getHeightRec(Node* nodePtr)
 {
 	if (nodePtr == NULL)
 		return -1;
